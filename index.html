@@ -1,12 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Flexbox</title>
+    <meta name="description" content="Blog sobre os mais variados assuntos.">
+    <meta name="author" content="Fatima Ferreira">
+    <meta name="keywords" content="blog filmes musicas historias">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/blogger.png" type="image/x-icon">
+    <title>FlexBlog</title>
 </head>
+
 <body>
-    
+    <div class="superinfo-bg">
+        <div class="superinfo container">
+            <p>Seg/Sex - 08:00 às 22:00</p>
+            <a href="tel:+5583965568585">+55 83 96556-8585</a>
+            <p>Av. Ali Perto, 125, Serra Grande - PB</p>
+        </div>
+    </div>
+
+    <header class="menu-bg">
+        <div class="container menu">
+            <div class="menu-logo">
+                <a href="./index.html">FlexBlog</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#preco">Preço</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 class="introducao">Brando Arquitetura: Sofisticação e <br>minimalismo para construir casas de luxo</h1>
+
+    <section class="sobre container" id="sobre" aria-label="Seção Sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>A arquitetura minimalista é vista como a grande tendência das últimas décadas. O uso de pouco itens
+                de decoração, artigos geométricos, móveis com design simples e anguloso, cores neutras, valorização
+                da modernidade e da tecnologia são alguns atributos que caracterizam facilmente o estilo
+                minimalista.
+            </p>
+
+            <p>A redução de artigos e a exaltação dos detalhes compõem ambientes ainda mais charmosos e práticos,
+                além de serem forma de expressão dos moradores e dos arquitetos e engenheiros que tiveram no
+                minimalismo fonte de inspiração para desenvolver o desenho de edifícios.
+            </p>
+
+            <p>Vamos contar neste artigo como todo o movimento minimalista começou, quais esferas culturais ele
+                afeta e como aplicar o famoso “menos é mais” na decoração e arquitetura. Ficou curioso? Confira
+                nosso post para saber mais!
+            </p>
+        </div>
+
+        <div class="sobre-imagens">
+            <img src="img/sobre1.jpg" alt="Mulher em pé de frente a uma janela." width="220" height="550">
+            <img src="img/sobre2.jpg" alt="Pessoa desenhando em uma pequena tela com um pincel." width="220"
+                height="275">
+        </div>
+    </section>
+
+    <section class="produtos container" id="produtos" aria-label="Seção de Produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-item purple">
+                <h2>Purple</h2>
+                <img src="img/produtos1.jpg" alt="Produto Purple" width="600" height="500">
+            </div>
+            <div class="produtos-item pink">
+                <h2>Pink</h2>
+                <img src="img/produtos2.jpg" alt="Produto Pink" width="600" height="700">
+            </div>
+            <div class="produtos-item blue">
+                <h2>Blue</h2>
+                <img src="img/produtos3.jpg" alt="Produto Blue" width="600" height="600">
+            </div>
+        </div>
+    </section>
+
+    <section class="precos" id="precos" aria-label="Seção de Preços">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <span><sup>R$</sup>19</span>
+
+            <ul>
+                <li>Planos limitados <span>.</span></li>
+                <li>Acesso Restrito <span>.</span></li>
+                <li>Conteúdo Secreto <span>.</span></li>
+                <li>Suporte 24h <span>.</span></li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+
+            <ul>
+                <li>Planos limitados <span>.</span></li>
+                <li>Acesso Restrito <span>.</span></li>
+                <li>Conteúdo Secreto <span>.</span></li>
+                <li>Suporte 24h <span>.</span></li>
+                <li>Comprar Exclusivas <span>.</span></li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+                <li>Planos limitados <span>.</span></li>
+                <li>Acesso Restrito <span>.</span></li>
+                <li>Conteúdo Secreto <span>.</span></li>
+                <li>Suporte 24h <span>.</span></li>
+                <li>Comprar Exclusivas <span>.</span></li>
+                <li>1000g de Armazenagem <span>.</span></li>
+            </ul>
+            <a href="#">Comprar</a>
+        </div>
+    </section>
+
+    <section class="qualidade" aria-label="Seção Qualidade">
+        <div class="container">
+            <div class="qualidade-item">
+                <h2>Inteligente</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto perspiciatis
+                    aliquam enim cum tempora distinctio iste deleniti dolor mollitia tempore quos reprehenderit, velit
+                    deserunt.
+                </p>
+            </div>
+
+            <div class="qualidade-item">
+                <h2>Compacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, necessitatibus odio laborum illo
+                    repellat delectus dolores eum adipisci sint fugit consectetur maxime doloribus perspiciatis
+                    blanditiis? Dolore tempora omnis odit assumenda.
+                </p>
+            </div>
+
+            <div class="qualidade-item">
+                <h2>Econômico</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto perspiciatis
+                    aliquam enim cum tempora distinctio iste deleniti dolor mollitia tempore quos reprehenderit, velit
+                    deserunt.
+                </p>
+            </div>
+
+            <div class="qualidade-item">
+                <h2>Transparente</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, necessitatibus odio laborum illo
+                    repellat delectus dolores eum adipisci sint fugit consectetur maxime doloribus perspiciatis
+                    blanditiis? Dolore tempora omnis odit assumenda.
+                </p>
+            </div>
+
+            <div class="qualidade-item">
+                <h2>Opaco</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto perspiciatis
+                    aliquam enim cum tempora distinctio iste deleniti dolor mollitia tempore quos reprehenderit, velit
+                    deserunt.
+                </p>
+            </div>
+
+            <div class="qualidade-item">
+                <h2>Sustentável</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, necessitatibus odio laborum illo
+                    repellat delectus dolores eum adipisci sint fugit consectetur maxime doloribus perspiciatis
+                    blanditiis? Dolore tempora omnis odit assumenda.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato" aria-label="Seção de Contatos">
+        <div class="container">
+            <div class="contato-info">
+                <h1>Newsletter</h1>
+                <p>assine e fique por dentro de todas as novidades</p>
+            </div>
+            <form class="contato-formulario">
+                <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                <button type="submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <p>FlexBlox &copy Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
