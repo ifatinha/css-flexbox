@@ -20,7 +20,7 @@
 .header nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
 }
 
 .header nav a {
@@ -42,4 +42,16 @@
 
 .header a:hover::after {
     width: 100%;
+}
+
+@media screen and (max-width: 520px) {
+
+    .header nav {
+        margin-top: 10px;
+    }
+
+    .header nav,
+    .header nav ul li {
+        width: 100%;
+    }
 }
