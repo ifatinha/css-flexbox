@@ -1,0 +1,17 @@
+.superinfo-bg {
+    background: var(--cor-02);
+    color: var(--cor-03);
+}
+
+.superinfo {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.superinfo p,
+.superinfo a {
+    margin: 0 10px 10px 10px;
+}

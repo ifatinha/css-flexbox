@@ -1,1 +1,11 @@
+/* Reset */
 @import "./reset/minireset.css";
+
+/* Tipografias */
+@import "./util/cores.css";
+
+/* Configurações globais */
+@import "./global/global.css";
+
+/* home css */
+@import "./home/superinfo.css";
