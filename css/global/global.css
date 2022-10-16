@@ -14,3 +14,10 @@ html {
     padding-right: 2%;
     width: 100%;
 }
+
+.titulo {
+    font: 700 3rem/1 "Nunito", Arial, Helvetica, sans-serif;
+    line-height: 1;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
