@@ -4,20 +4,12 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    padding-bottom: 60px;
-    padding-top: 60px;
 }
 
 .sobre-info {
     flex-grow: 2;
     flex-basis: 0;
     flex-shrink: 1;
-}
-
-.sobre-info h1 {
-    font: 700 3rem/1 "Nunito", Arial, Helvetica, sans-serif;
-    line-height: 1;
-    margin-bottom: .5em;
 }
 
 .sobre-info p {

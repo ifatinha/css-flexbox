@@ -1,0 +1,32 @@
+.produtos-container {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produtos-item {
+    flex: 1 1 200px;
+    margin: 30px 0;
+}
+
+.produtos-item h2 {
+    background: var(--cor-07);
+    color: var(--cor-06);
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid var(--cor-08);
+}
+
+.pink {
+    border-top: 8px solid var(--cor-09);
+}
+
+.blue {
+    border-top: 8px solid var(--cor-10);
+}

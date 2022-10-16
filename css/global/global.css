@@ -10,8 +10,7 @@ html {
 .container {
     margin: 0 auto;
     max-width: 1000px;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 60px 2%;
     width: 100%;
 }
 
@@ -20,4 +19,10 @@ html {
     line-height: 1;
     padding-bottom: 60px;
     padding-top: 60px;
+}
+
+.subtitulos {
+    font: 700 3rem/1 "Nunito", Arial, Helvetica, sans-serif;
+    line-height: 1;
+    margin-bottom: .8em;
 }
