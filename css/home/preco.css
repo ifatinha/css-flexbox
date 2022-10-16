@@ -1,0 +1,95 @@
+.precos {
+    align-items: flex-end;
+    background: var(--cor-07);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.preco-item {
+    border: 4px solid var(--cor-04);
+    flex: 1 1 260px;
+    padding: 20px;
+}
+
+.preco-item h2 {
+    color: var(--cor-06);
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.preco-item>span {
+    border-bottom: 4px solid var(--cor-04);
+    border-top: 4px solid var(--cor-04);
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+
+.preco-item sup {
+    font-size: 1.5rem;
+}
+
+.preco-item ul {
+    color: var(--cor-05);
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.preco-item ul li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.preco-item li::after {
+    background-color: var(--cor-03);
+    border-radius: 50%;
+    display: block;
+    content: "";
+    height: 6px;
+    width: 6px;
+}
+
+.preco-item a {
+    border: 4px solid var(--cor-01);
+    color: var(--cor-01);
+    display: block;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 15px 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+    .precos {
+        padding: 10px;
+    }
+
+    .preco-item {
+        flex-grow: 0;
+    }
+
+    .preco-item:nth-child(3) {
+        order: -2;
+    }
+
+    .preco-item:nth-child(2) {
+        order: -1;
+    }
+}
