@@ -92,3 +92,9 @@
         order: -1;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .preco-item a {
+        font-size: 1.5rem;
+    }
+}
